@@ -32,7 +32,7 @@ async function notifySignup(email) {
         from: 'Ducktails <notifications@ducktails.ai>',
         to: NOTIFY_EMAIL,
         subject: `New waitlist signup: ${email}`,
-        text: `${email} just joined the Ducktails waitlist.\n\nView all signups: https://api-production-1873.up.railway.app/admin?key=${ADMIN_KEY}`,
+        text: `${email} just joined the Ducktails waitlist.\n\nView all signups: https://api-production-89ccc.up.railway.app/admin?key=${ADMIN_KEY}`,
       }),
     });
   } catch (err) {
